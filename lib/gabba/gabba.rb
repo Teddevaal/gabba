@@ -138,7 +138,7 @@ module Gabba
         :utmhid => utmhid,
         :utmp => page,
         :utmac => @utmac,
-        :utmcc => @utmcc || cookie_params,
+        :utmcc => @utmcc,
         :utmr => @utmr,
         :utmip => @utmip
       }
@@ -185,7 +185,7 @@ module Gabba
         :utmul => @utmul,
         :utmhid => utmhid,
         :utmac => @utmac,
-        :utmcc => @utmcc || cookie_params,
+        :utmcc => @utmcc,
         :utmr => @utmr,
         :utmip => @utmip
       }
@@ -237,7 +237,7 @@ module Gabba
         :utmul => @utmul,
         :utmhid => utmhid,
         :utmac => @utmac,
-        :utmcc => @utmcc || cookie_params,
+        :utmcc => @utmcc,
         :utmtid => order_id,
         :utmtst => store_name,
         :utmtto => total,
@@ -276,7 +276,7 @@ module Gabba
         :utmul => @utmul,
         :utmhid => utmhid,
         :utmac => @utmac,
-        :utmcc => @utmcc || cookie_params,
+        :utmcc => @utmcc,
         :utmtid => order_id,
         :utmipc => item_sku,
         :utmipn => name,
